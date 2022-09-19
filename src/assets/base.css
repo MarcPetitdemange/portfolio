@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "RobotoCondensed";
+    src: url("./fonts/robotoCondensed/RobotoCondensed-Regular.ttf") format("truetype"),
+         url("./fonts/robotoCondensed/RobotoCondensed-Bold.ttf") format("truetype"),
+         url("./fonts/robotoCondensed/RobotoCondensed-BoldItalic.ttf") format("truetype"),
+         url("./fonts/robotoCondensed/RobotoCondensed-Italic.ttf") format("truetype"),
+         url("./fonts/robotoCondensed/RobotoCondensed-Light.ttf") format("truetype"),
+         url("./fonts/robotoCondensed/RobotoCondensed-LightItalic.ttf") format("truetype");
+}
+
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./fonts/roboto/Roboto-Regular.ttf") format("truetype"),
+         url("./fonts/roboto/Roboto-BlackItalic.ttf") format("truetype"),
+         url("./fonts/roboto/Roboto-Bold.ttf") format("truetype"),
+         url("./fonts/roboto/Roboto-BoldItalic.ttf") format("truetype"),
+         url("./fonts/roboto/Roboto-Italic.ttf") format("truetype"),
+         url("./fonts/roboto/Roboto-Light.ttf") format("truetype"),
+         url("./fonts/roboto/Roboto-LightItalic.ttf") format("truetype"),
+         url("./fonts/roboto/Roboto-Medium.ttf") format("truetype"),
+         url("./fonts/roboto/Roboto-MediumItalic.ttf") format("truetype"),
+         url("./fonts/roboto/Roboto-Thin.ttf") format("truetype"),
+         url("./fonts/roboto/Roboto-ThinItalic.ttf") format("truetype");
+}

@@ -1,13 +1,14 @@
 <template>
     <header>
-        <div class="social">
-            <i class="fa-brands fa-snapchat"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-discord"></i>
-            <i class="fa-brands fa-github"></i>
-        </div>
+        <article>
+                <RouterLink to="/home">Accueil</RouterLink>
+        </article>
+         <article>
+                <RouterLink to="/studies"><em class="fas fa-person" /> A propos</RouterLink>
+                <RouterLink to="/contact"><em class="fas fa-graduation-cap" /> Formation</RouterLink>
+                <RouterLink to="/experience"><em class="fas fa-briefcase" /> Travaux</RouterLink>
+                <RouterLink to="/contact"><em class="fas fa-comment" /> Contact</RouterLink>
+            </article>
     </header>
 </template>
 

@@ -1,6 +1,5 @@
 <template>
       <main>
-        <n-button type="primary">Envoyer</n-button>
         <RouterView></RouterView>
       </main>
 </template>
