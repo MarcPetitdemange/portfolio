@@ -4,11 +4,14 @@
                 <RouterLink to="/home">Accueil</RouterLink>
         </article>
          <article>
-                <RouterLink to="/studies"><em class="fas fa-person" /> A propos</RouterLink>
-                <RouterLink to="/contact"><em class="fas fa-graduation-cap" /> Formation</RouterLink>
-                <RouterLink to="/experience"><em class="fas fa-briefcase" /> Travaux</RouterLink>
-                <RouterLink to="/contact"><em class="fas fa-comment" /> Contact</RouterLink>
-            </article>
+            <select v-model="$i18n.locale">
+                <option v-for="locale in $i18n.availableLocales" :key="`locale-${locale}`" :value="locale">{{ locale }}</option>
+            </select>
+            <RouterLink to="/studies"><em class="fas fa-person" /> A propos</RouterLink>
+            <RouterLink to="/contact"><em class="fas fa-graduation-cap" /> Formation</RouterLink>
+            <RouterLink to="/experience"><em class="fas fa-briefcase" /> Travaux</RouterLink>
+            <RouterLink to="/contact"><em class="fas fa-comment" /> Contact</RouterLink>
+        </article>
     </header>
 </template>
 
