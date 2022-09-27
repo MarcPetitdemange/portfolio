@@ -1,6 +1,11 @@
 {
   "name": "portfolio",
   "version": "0.0.0",
+  "extends" : [
+    "plugin:vue/essential",
+    "eslint:recommended",
+    "scss:recommended"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
@@ -41,6 +46,7 @@
     "naive-ui": "^2.33.3",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.7.1",
+    "sass": "^1.55.0",
     "start-server-and-test": "^1.14.0",
     "typescript": "~4.7.4",
     "vite": "^3.0.9",

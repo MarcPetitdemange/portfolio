@@ -1,13 +1,7 @@
-<template>
-  Page not found
-</template>
+<template>Page not found</template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
-<style>
-
-</style>
+<style></style>
