@@ -11,7 +11,7 @@
         @select="(selectedLocale) => (this.$i18n.locale = selectedLocale)"
       >
         <n-button round type="info"
-          ><em class="fas fa-language" />
+          ><em class="fas fa-language" /> &nbsp;
           {{ mapLanguages.get($i18n.locale) }}</n-button
         >
       </n-dropdown>

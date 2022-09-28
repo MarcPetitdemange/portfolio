@@ -23,3 +23,20 @@
          url("./fonts/roboto/Roboto-Thin.ttf") format("truetype"),
          url("./fonts/roboto/Roboto-ThinItalic.ttf") format("truetype");
 }
+
+@font-face {
+    font-family: "CascadiaCode";
+    src: url("./fonts/cascadiaCode/CascadiaCode.ttf") format("truetype"),
+         url("./fonts/cascadiaCode/CascadiaCodeItalic.ttf") format("truetype"),
+         url("./fonts/cascadiaCode/CascadiaCodePL.ttf") format("truetype"),
+         url("./fonts/cascadiaCode/CascadiaCodePLItalic.ttf") format("truetype"),
+}
+
+@font-face {
+    font-family: "CascadiaMono";
+    src: url("./fonts/cascadiaCode/CascadiaMono.ttf") format("truetype"),
+         url("./fonts/cascadiaCode/CascadiaMonoItalic.ttf") format("truetype"),
+         url("./fonts/cascadiaCode/CascadiaMonoPL.ttf") format("truetype"),
+         url("./fonts/cascadiaCode/CascadiaMonoPLItalic.ttf") format("truetype");
+}
+
