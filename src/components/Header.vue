@@ -8,7 +8,7 @@
         trigger="click"
         :options="languages"
         :show-arrow="true"
-        @select="(selectedLocale) => (this.$i18n.locale = selectedLocale)"
+        @select="(selectedLocale: any) => ($i18n.locale = selectedLocale)"
       >
         <n-button round type="info"
           ><em class="fas fa-language" /> &nbsp;
@@ -40,8 +40,8 @@ export default {
       ["en", "English"],
       ["de", "Deutsch"],
     ]);
-    let tableauLocales = [];
-    this.$i18n.availableLocales.forEach((locale) => {
+    let tableauLocales: any = [];
+    (this as any).$i18n.availableLocales.forEach((locale: any) => {
       tableauLocales.push({
         key: locale,
         label: mapLanguages.get(locale),

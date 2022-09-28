@@ -24,7 +24,7 @@ export default {};
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-image: url('../assets/images/background.gif');
+  background-image: url("../assets/images/background.gif");
   background-size: cover;
 
   .presentation {

@@ -4,7 +4,8 @@
   "extends" : [
     "plugin:vue/essential",
     "eslint:recommended",
-    "scss:recommended"
+    "scss:recommended",
+    ""
   ],
   "scripts": {
     "dev": "vite",
