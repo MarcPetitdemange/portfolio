@@ -16,18 +16,10 @@
         >
       </n-dropdown>
 
-      <RouterLink to="/studies"
-        ><em class="fas fa-person" /> A propos</RouterLink
-      >
-      <RouterLink to="/contact"
-        ><em class="fas fa-graduation-cap" /> Formation</RouterLink
-      >
-      <RouterLink to="/experience"
-        ><em class="fas fa-briefcase" /> Travaux</RouterLink
-      >
-      <RouterLink to="/contact"
-        ><em class="fas fa-comment" /> Contact</RouterLink
-      >
+      <a href="/home#contact" has><em class="fas fa-person" /> A propos</a>
+      <a href="/home#school"><em class="fas fa-graduation-cap" /> Formation</a>
+      <a href="/home#work"><em class="fas fa-briefcase" /> Travaux</a>
+      <a href="/home#contact"><em class="fas fa-comment" /> Contact</a>
     </article>
   </header>
 </template>

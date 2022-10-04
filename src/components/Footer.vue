@@ -7,12 +7,12 @@
       </article>
     </section>
     <div class="social">
-      <i class="fa-brands fa-snapchat fa-1x"></i>
-      <i class="fa-brands fa-instagram fa-1x"></i>
-      <i class="fa-brands fa-linkedin fa-1x"></i>
-      <i class="fa-brands fa-facebook fa-1x"></i>
-      <i class="fa-brands fa-discord fa-1x"></i>
-      <i class="fa-brands fa-github fa-1x"></i>
+      <a href=""><i class="fa-brands fa-snapchat fa-1x"></i></a>
+      <a href=""><i class="fa-brands fa-instagram fa-1x"></i></a>
+      <a href=""><i class="fa-brands fa-linkedin fa-1x"></i></a>
+      <a href=""><i class="fa-brands fa-facebook fa-1x"></i></a>
+      <a href=""><i class="fa-brands fa-discord fa-1x"></i></a>
+      <a hre><i class="fa-brands fa-github fa-1x"></i></a>
     </div>
   </footer>
 </template>
